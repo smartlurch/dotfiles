@@ -3,3 +3,19 @@ alias less='less -R'
 alias diff='colordiff'
 alias dc='cd'
 alias glog='git log --oneline --graph --color --all --decorate'
+alias e=nvim
+alias cd=z
+alias esh="nvim ~/.zshrc"
+alias ecfg="sudo nvim /etc/nixos/configuration.nix"
+alias ..="z .."
+alias .2="z ../.."
+alias ls="exa -al --color=always --group-directories-first"
+alias l.='exa -a --color=always --group-directories-first | egrep "^\."'
+alias df="df -h"
+alias gcom="git commit -m"
+alias gadd="git add ."
+alias gpush="git push remote origin"
+alias gpull="git pull"
+alias upd="sudo nixos-rebuild switch"
+alias upg="sudo nix-channel --update && sudo nixos-rebuild switch && nix-env -u '*'"
+alias nsh="nix-shell -p"
