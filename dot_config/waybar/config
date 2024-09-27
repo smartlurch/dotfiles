@@ -22,7 +22,7 @@
   },
   "memory": {
     "interval": 30,
-    "format": "RAM: ({percentage}%) SWAP: ({swapPercentage}%)"
+    "format": "RAM: ({percentage}%)"
   },
   "battery": {
     "bat": "BAT0",
