@@ -126,5 +126,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+. $HOME/.nix-profile/etc/profile.d/hm-session-vars.sh
+#. $HOME/.nix-profile/etc/profile.d/bash_completion.d/nix
 
+eval "$(zoxide init bash)"
+#source /nix/store/....nix-profile/etc/bash_completion.d/nix
 fastfetch
