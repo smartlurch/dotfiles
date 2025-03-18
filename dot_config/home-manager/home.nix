@@ -18,9 +18,6 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
-    # # Adds the 'hello' command to your environment. It prints a friendly
-    # # "Hello, world!" when run.
-    # pkgs.hello
     pkgs.glances
     pkgs.duf
     pkgs.tealdeer
@@ -33,7 +30,7 @@
     pkgs.nodejs_23
     pkgs.python3
     pkgs.ansible
-    pkgs.libreoffice
+#    pkgs.libreoffice
     pkgs.just
     pkgs.ripgrep
     pkgs.jdk
