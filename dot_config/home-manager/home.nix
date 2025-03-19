@@ -18,6 +18,8 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
+    pkgs.clang
+    pkgs.gnumake
     pkgs.fish
     pkgs.glances
     pkgs.duf
